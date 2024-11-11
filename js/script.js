@@ -50,10 +50,10 @@ ScrollReveal().reveal(".home-content h1, .about-img", {origin: "left"});
 ScrollReveal().reveal(".home-content p, .about-content", {origin: "right"});
 
 /* =========================== type js =================================== */
-const typed = new Typed('.multiple-text', {
-    strings: ['Designer', 'Creator', 'Graphic Artist'],
+const typed = new Typed(".multiple-text", {
+    strings: ["Designer", "Creator", "Graphic Artist"],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
-    loop: true
+    loop: true,
 });
